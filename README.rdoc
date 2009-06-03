@@ -1,0 +1,7 @@
+= long-url
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Markus Prinz. See LICENSE for details.
