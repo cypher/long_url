@@ -9,6 +9,7 @@ begin
     gem.email = "markus.prinz@nuclearsquid.com"
     gem.homepage = "http://github.com/cypher/long_url"
     gem.authors = ["Markus Prinz"]
+    gem.add_dependency('json')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
