@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "long_url"
-    gem.summary = %Q{A wrapper for the Long URL Please (http://www.longurlplease.com/) API}
+    gem.summary = %Q{A small wrapper for the Long URL Please (http://www.longurlplease.com/) API}
     gem.email = "markus.prinz@nuclearsquid.com"
     gem.homepage = "http://github.com/cypher/long_url"
     gem.authors = ["Markus Prinz"]
