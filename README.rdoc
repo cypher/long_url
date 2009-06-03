@@ -1,6 +1,26 @@
 = long_url
 
-Description goes here.
+A small wrapper for the Long URL Please (http://www.longurlplease.com/) API.
+
+See http://www.longurlplease.com/docs for the API docs.
+
+= Usage
+
+  require 'long_url'
+  
+  LongUrl.longen("http://bit.ly/enAo") # => { "http://bit.ly/enAo" => "http://www.boasas.com/?c=1030"}
+
+You can also include LongUrl inside a class of yours:
+
+  require 'long_url'
+  
+  class MyNiftyClass
+    include LongUrl
+    
+    def my_nifty_method
+      longen("http://bit.ly/enAo")
+    end
+  end
 
 == Copyright
 
