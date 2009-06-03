@@ -4,10 +4,10 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "long-url"
-    gem.summary = %Q{A wrapper for the http://www.longurlplease.com/ API}
+    gem.name = "long_url"
+    gem.summary = %Q{A wrapper for the Long URL Please (http://www.longurlplease.com/) API}
     gem.email = "markus.prinz@nuclearsquid.com"
-    gem.homepage = "http://github.com/cypher/long-url"
+    gem.homepage = "http://github.com/cypher/long_url"
     gem.authors = ["Markus Prinz"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
@@ -49,7 +49,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "long-url #{version}"
+  rdoc.title = "long_url #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

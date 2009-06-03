@@ -1,4 +1,4 @@
-= long-url
+= long_url
 
 Description goes here.
 
